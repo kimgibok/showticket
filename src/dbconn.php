@@ -2,7 +2,7 @@
      $host_name = "localhost";
      $db_user_id = "root";
      $db_pwd = "0114";
-     $db_name = "showticket";
+     $db_name = "20226932";
 
      $connect = mysqli_connect($host_name, $db_user_id, $db_pwd, $db_name);
      /* check connection */
