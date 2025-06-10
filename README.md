@@ -148,7 +148,7 @@ SOURCE [프로젝트경로]/database/showticket.sql;
 | 로그인/회원가입 | login.php, logout.php, register.php | 계정 관리 |
 | 관리자 페이지 | admin_*.php | 공연 관리, 통계 |
 
-## 🐛 알려진 제한사항
+## 🐛 제한사항
 
 1. **결제 시스템**: 실제 결제는 구현되지 않음 (UI만 제공)
 2. **이메일 알림**: 예매 확인 이메일 발송 기능 없음
