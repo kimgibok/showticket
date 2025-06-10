@@ -6,17 +6,37 @@
 
 ---
 
-## 📋 프로젝트 개요
+## 📸 프로젝트 미리보기
 
-ShowTicket은 뮤지컬, 연극, 콘서트, 오페라, 발레 등 다양한 공연의 예매를 온라인으로 처리할 수 있는 웹 시스템입니다. 사용자는 회원가입 후 원하는 공연을 검색하고, 좌석을 선택하여 예매할 수 있으며, 관리자는 공연 등록 및 관리 기능을 사용할 수 있습니다.
+### 🏠 메인 페이지
+![메인 페이지](./assets/localhost_mypage.php.png)
+*다양한 장르의 공연을 한눈에 볼 수 있는 메인 페이지*
 
-## 🛠️ 기술 스택
+### 🎫 예매 프로세스
+![공연 상세](./assets/localhost_performance_detail.php_id=6%20(1).png)
+*공연 정보와 날짜/회차 선택*
 
-- **Frontend**: HTML5, CSS3, JavaScript
-- **Backend**: PHP 8.0+
-- **Database**: MySQL 8.0+
-- **Server**: Apache (XAMPP 권장)
-- **Development Tool**: DBeaver, VS Code, draw.io
+![좌석 선택](./assets/localhost_seat_selection.php_schedule_id=410&performance_id=6.png)
+*직관적인 좌석 선택 인터페이스*
+
+![예매 완료](./assets/localhost_booking_process.php.png)
+*예매 완료 및 확인*
+
+### 👤 사용자 페이지
+![마이페이지](./assets/localhost_mypage.php.png)
+*개인정보 관리 및 예매 통계*
+
+![내 예매](./assets/localhost_my_bookings.php.png)
+*예매 내역 조회 및 관리*
+
+### 🔧 관리자 페이지
+![관리자 대시보드](./assets/localhost_admin_performances.php.png)
+*공연 관리 및 통계 대시보드*
+
+![공연 등록](./assets/localhost_admin_add_performance.php.png)
+*공연 등록 인터페이스*
+
+---
 
 ## 📁 프로젝트 구조
 
@@ -41,10 +61,6 @@ ShowTicket/
 │   ├── admin_add_performance.php   # 공연 등록
 │   └── admin_edit_performance.php  # 공연 수정
 └── 🖼️ assets/
-    ├── 홈페이지.png
-    ├── 공연목록.png
-    ├── 예매페이지.png
-    └── 관리자페이지.png
 ```
 
 ## ⭐ 주요 기능
@@ -64,7 +80,7 @@ ShowTicket/
 
 ## 🗄️ 데이터베이스 설계
 
-![대체텍스트](assets\공연예매.drawio.png)
+![대체텍스트](./assets/공연예매.drawio.png)
 
 ### 주요 테이블
 - **users**: 사용자 정보 (회원정보, 권한)
